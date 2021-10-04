@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="521dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+
+        <ImageView
+            android:id="@+id/seatmap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="Specs"
+            android:scrollbars="vertical"
+            android:src="@drawable/b737800sm" />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        app:srcCompat="@drawable/go_back_up" />
+
+    <ImageView
+        android:id="@+id/manualListButton"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/manual_list_up"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/menuKids"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/manual_list_up"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/menuRavioli"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/manual_list_up"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/menuBreakfast"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/manual_list_up"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/menuSalad"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/manual_list_up"
+        tools:visibility="invisible" />
+</LinearLayout>

@@ -10,8 +10,9 @@ import android.content.pm.PackageManager;
 import android.device.ScanManager;
 import android.device.scanner.configuration.PropertyID;
 import android.device.scanner.configuration.Triggering;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -186,6 +187,7 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
                                        int position, long id) {
                 // TODO Auto-generated method stub
                 mAppendCharValue = position;
+                Log.println(1,"12122213 sssss","dd");
                 int[] idappend = new int[1];
                 idappend[0] = PropertyID.LABEL_APPEND_ENTER;
                 idmode[0] = mAppendCharValue;
@@ -218,6 +220,7 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
                 if(actionId == EditorInfo.IME_ACTION_DONE) {
                     barcode_result.setText("" + scanResult2.getText());
                     decode_length.setText("" + scanResult2.getText().length());
+
                     scanResult2.setText("");
 
                     Toast.makeText(MainActivity.this, "EditorAction DNOE event", Toast.LENGTH_LONG).show();

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../BarcodeScan/BarcodeScan.iml" filepath="$PROJECT_DIR$/../BarcodeScan/BarcodeScan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../BarcodescanConfig/BarcodescanConfig.iml" filepath="$PROJECT_DIR$/../BarcodescanConfig/BarcodescanConfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DeviceManager/DeviceManager.iml" filepath="$PROJECT_DIR$/../DeviceManager/DeviceManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../IccManagerSample/IccManagerSample.iml" filepath="$PROJECT_DIR$/../IccManagerSample/IccManagerSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Magmanager/Magmanager.iml" filepath="$PROJECT_DIR$/../Magmanager/Magmanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PICCManager/PICCManager.iml" filepath="$PROJECT_DIR$/../PICCManager/PICCManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PinPadSample/PinPadSample.iml" filepath="$PROJECT_DIR$/../PinPadSample/PinPadSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PrinterSample.iml" filepath="$PROJECT_DIR$/PrinterSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SDK_release.iml" filepath="$PROJECT_DIR$/../SDK_release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SLE4442Sample/SLE4442Sample.iml" filepath="$PROJECT_DIR$/../SLE4442Sample/SLE4442Sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sdklibrary/sdklibrary.iml" filepath="$PROJECT_DIR$/../sdklibrary/sdklibrary.iml" />
+    </modules>
+  </component>
+</project>

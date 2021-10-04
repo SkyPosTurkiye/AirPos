@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-540437708/SDK_release.iml" filepath="$PROJECT_DIR$/.idea/modules/-540437708/SDK_release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-177524574/SDK_release.BarcodeScan.iml" filepath="$PROJECT_DIR$/.idea/modules/-177524574/SDK_release.BarcodeScan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1295528548/SDK_release.BarcodescanConfig.iml" filepath="$PROJECT_DIR$/.idea/modules/1295528548/SDK_release.BarcodescanConfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1312502012/SDK_release.DeviceManager.iml" filepath="$PROJECT_DIR$/.idea/modules/1312502012/SDK_release.DeviceManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1470964439/SDK_release.IccManagerSample.iml" filepath="$PROJECT_DIR$/.idea/modules/-1470964439/SDK_release.IccManagerSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1355526987/SDK_release.Magmanager.iml" filepath="$PROJECT_DIR$/.idea/modules/-1355526987/SDK_release.Magmanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SDK_release.NewGen.iml" filepath="$PROJECT_DIR$/.idea/modules/SDK_release.NewGen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1648250087/SDK_release.PICCManager.iml" filepath="$PROJECT_DIR$/.idea/modules/-1648250087/SDK_release.PICCManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-372906749/SDK_release.PinPadSample.iml" filepath="$PROJECT_DIR$/.idea/modules/-372906749/SDK_release.PinPadSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/356986537/SDK_release.PrinterSample.iml" filepath="$PROJECT_DIR$/.idea/modules/356986537/SDK_release.PrinterSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-643051847/SDK_release.SLE4442Sample.iml" filepath="$PROJECT_DIR$/.idea/modules/-643051847/SDK_release.SLE4442Sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1654781700/SDK_release.sdklibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/-1654781700/SDK_release.sdklibrary.iml" />
+    </modules>
+  </component>
+</project>

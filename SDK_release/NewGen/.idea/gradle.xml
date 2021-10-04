@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/.." />
+            <option value="$PROJECT_DIR$/../BarcodeScan" />
+            <option value="$PROJECT_DIR$/../BarcodescanConfig" />
+            <option value="$PROJECT_DIR$/../DeviceManager" />
+            <option value="$PROJECT_DIR$/../IccManagerSample" />
+            <option value="$PROJECT_DIR$/../Magmanager" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/../PICCManager" />
+            <option value="$PROJECT_DIR$/../PinPadSample" />
+            <option value="$PROJECT_DIR$/../PrinterSample" />
+            <option value="$PROJECT_DIR$/../SLE4442Sample" />
+            <option value="$PROJECT_DIR$/../sdklibrary" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

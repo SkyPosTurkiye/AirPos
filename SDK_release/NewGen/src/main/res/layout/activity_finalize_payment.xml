@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/cashButton"
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+
+        app:srcCompat="@drawable/cash_up" />
+
+    <ImageView
+        android:id="@+id/creditCardButton"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        app:srcCompat="@drawable/cc_up" />
+
+    <ImageView
+        android:id="@+id/multinetButton"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        app:srcCompat="@drawable/multinet_up" />
+
+    <ImageView
+        android:id="@+id/applePayButton"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        app:srcCompat="@drawable/apple_pay_up" />
+
+    <ImageView
+        android:id="@+id/googlePayButton"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        app:srcCompat="@drawable/google_pay_up" />
+
+    <ImageView
+        android:id="@+id/trainTicketButton"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        app:srcCompat="@drawable/train_ticket_up" />
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        app:srcCompat="@drawable/go_back_up" />
+
+</LinearLayout>

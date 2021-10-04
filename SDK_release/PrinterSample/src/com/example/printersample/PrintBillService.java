@@ -136,7 +136,7 @@ public class PrintBillService extends IntentService {
     	printer.prn_setupPage(384,780);
         //   printer.prn_drawLine(0,0,384,0,2);
           
-    	printer.prn_drawText(("  打印机测试"), 5, 50, (STR_FONT_VALUE_SONG), 48 , false, false, 0);
+    	printer.prn_drawText(("  SUNEXPRESS"), 5, 50, (STR_FONT_VALUE_SONG), 48 , false, false, 0);
     	height += 48;
 //    	printer.prn_drawText(("商户名(MERCHANT NAME):"), 0, 100, (STR_FONT_VALUE_SONG), 24 , false, false, 0);
 //    	printer.prn_drawText(("  面点王（科技园店）"), 0, 126, (STR_FONT_VALUE_SONG), 24 , false, false, 0);
@@ -225,45 +225,45 @@ public class PrintBillService extends IntentService {
     
     public void printSale(Context context) throws Exception {
 
-		int height = 60;
+		int height = 90;
 		printer.prn_open();
 		printer.prn_setupPage(_XVALUE, -1);
 		printer.prn_clearPage();
-		printer.prn_drawText(("打印机测试"), 70, 50, (STR_FONT_VALUE_SONG), 48 , false, false, 0);
+		printer.prn_drawText(("SATIS FISI"), 70, 50, (STR_FONT_VALUE_SONG), 48 , false, false, 0);
 		height += 50;
 		
 		BitmapFactory.Options opts = new BitmapFactory.Options();
 		opts.inPreferredConfig = Bitmap.Config.ARGB_8888;
 		opts.inDensity = getResources().getDisplayMetrics().densityDpi;
 		opts.inTargetDensity = getResources().getDisplayMetrics().densityDpi;
-		Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.unionpay_logo, opts);
+		Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.selogo, opts);
 		
 		
 //		Bitmap bitmap = getLogoBitmap(context, R.drawable.unionpay_logo);
 		printer.prn_drawBitmap(bitmap, 84, height);
 		height += 80;
 
-		Prn_Str("商户名称：测试商户", _YVALUE6, height);
+		Prn_Str("FLIGHT NO  : XQ9284", _YVALUE6, height);
 		height += _YVALUE;
 
-		Prn_Str("商户编号：123456789012345", _YVALUE6, height);
+		Prn_Str("FLIGHT DATE：23/11/2020", _YVALUE6, height);
 		height += _YVALUE;
-		Prn_Str("终端编号：" + "25778987" + "\t操作员号：" + "001" + "\n", _YVALUE6,
+		Prn_Str("CREW ID    ：" + "25778987" + "\tBARSET：" + "001" + "\n", _YVALUE6,
 				height);
 
-		String send = "招商银行";
-		String receive = "招商银行";
+		String send = "NEXGEN01";
+		String receive = "NEXTGENREP";
 
 		height += _YVALUE;
-		Prn_Str("发卡行：" + send, _YVALUE6, height);
-		printer.prn_drawText("收单行：" + receive, 190, height, STR_FONT_VALUE_SONG, _YVALUE6,
+		Prn_Str("CODE：" + send, _YVALUE6, height);
+		printer.prn_drawText("KEY：" + receive, 190, height, STR_FONT_VALUE_SONG, _YVALUE6,
 				false, false, 0);
 
 		height += _YVALUE;
-		String cardNo = "622228888888888888888";
+		String cardNo = "4348 3448 82** **91";
 
 		// if (swipe == _SWIPE_MODE.CARD_INSERTED) {
-		Prn_Str("卡号：", _YVALUE6, height);
+		Prn_Str("CARD NO：", _YVALUE6, height);
 		height += _YVALUE;
 		Prn_Str_Bold(cardNo, _YVALUE, height);
 		// }
@@ -290,44 +290,44 @@ public class PrintBillService extends IntentService {
 		// }
 
 		height += _YVALUE;
-		Prn_Str("交易类别：消费 ", _YVALUE6, height);
+		Prn_Str("APPROV NO: 345244 ", _YVALUE6, height);
 		height += _YVALUE;
-		Prn_Str("批次号：", _YVALUE6, height);
+		Prn_Str("BATCH：", _YVALUE6, height);
 		printer.prn_drawText("000001", 90, height, STR_FONT_VALUE_SONG, _YVALUE, false, false,
 				0);
 
-		printer.prn_drawText("有效期：" + "234567", 200, height, STR_FONT_VALUE_SONG, _YVALUE6,
+		printer.prn_drawText("SQUENCE：" + "234567", 200, height, STR_FONT_VALUE_SONG, _YVALUE6,
 				false, false, 0);
 
 		height += _YVALUE;
-		Prn_Str("凭证号：", _YVALUE6, height);
+		Prn_Str("PROID：", _YVALUE6, height);
 		printer.prn_drawText("000001", 90, height - 3, STR_FONT_VALUE_SONG, _YVALUE, false,
 				false, 0);
 
-		printer.prn_drawText("授权码：" + "123456", 200, height, STR_FONT_VALUE_SONG, _YVALUE6,
+		printer.prn_drawText("REPLY：" + "123456", 200, height, STR_FONT_VALUE_SONG, _YVALUE6,
 				false, false, 0);
 		height += _YVALUE;
-		Prn_Str("参考号：" + "12345678901" + "\n", _YVALUE6, height);
+		Prn_Str("VALID：" + "12345678901" + "\n", _YVALUE6, height);
 
 		height += _YVALUE;
-		Prn_Str("日期时间：20160602", _YVALUE6, height);
+		Prn_Str("P.DATE：20160602", _YVALUE6, height);
 		height += _YVALUE;
 
-		Prn_Str("金额：RMB 12.5", _YVALUE, height);
+		Prn_Str("VAT：% 8.0", _YVALUE, height);
+
+		height += _YVALUE;
+		Prn_Str("------------PRODUCTS----------\n",
+				_YVALUE, height);
+
+		height += _YVALUE;
+		Prn_Str("1 PC  COFFEE, FILTER   15.00", _YVALUE6, height);
 
 		height += _YVALUE;
 		Prn_Str("--------------------------------------------------------\n",
 				_YVALUE, height);
 
 		height += _YVALUE;
-		Prn_Str("备注：", _YVALUE6, height);
-
-		height += _YVALUE;
-		Prn_Str("--------------------------------------------------------\n",
-				_YVALUE, height);
-
-		height += _YVALUE;
-		Prn_Str("持卡人签名：\n \n \n", _YVALUE, height);
+		Prn_Str("TOTAL TL：15.00\n \n \n", _YVALUE, height);
 		height += _YVALUE;
 		try {// 电子签名
 
@@ -337,13 +337,13 @@ public class PrintBillService extends IntentService {
 
 		}
 		height += _YVALUE + 80;
-		Prn_Str("本人确认以上交易,同意将其记入本卡帐户\n \n \n", 16, height);
+		Prn_Str("\t\tTHANK FOR FOR YOUR PURCHASE\n \n \n", 20, height);
 
 		height += _YVALUE + 10;
-		Prn_Str("  \t\t\t\t   商户存联\n", 16, height);
+		Prn_Str("  \t   HAVE A NICE FLIGHT!\n", 20, height);
 
 		height += _YVALUE;
-		Prn_Str("\t  --请妥善保留小票一年--", _YVALUE6, height);
+		Prn_Str("\t  --END RECEIPT--", _YVALUE6, height);
 		height += _YVALUE * 3;
 		Prn_Str("\n", _YVALUE, height);
 		Prn_Str("", _YVALUE, height);

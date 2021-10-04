@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./../sdklibrary/libs/platform_sdk_v4.0.0802.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../sdklibrary/libs/platform_sdk_v4.0.0802.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

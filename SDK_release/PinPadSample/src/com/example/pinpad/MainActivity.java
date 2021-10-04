@@ -3,17 +3,14 @@ package com.example.pinpad;
 
 
 import com.android.gridpasswordview.CustomDialog;
-import com.android.gridpasswordview.CustomDialog.InputDialogListener;
 
-import android.os.Build;
 import android.os.Bundle;
-import android.app.Activity;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.device.SEManager;
 import android.device.SEManager.PedInputListener;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
